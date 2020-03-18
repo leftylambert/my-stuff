@@ -1,0 +1,36 @@
+const userName = 'JoJo';
+console.log(userName);
+console.log(`Hello, ${userName}!`);
+userName ? console.log(`Hello, ${userName} !`) : console.log('Hello!')//Testing to make sure code writes variable and strings correctly.
+let userQuestion = 'Will I die to Dio?';
+console.log(`${userName} asked, ${userQuestion}`)//Does the question ask it self correctly?
+let randomNumber = Math.round(Math.random() * 7);
+console.log(randomNumber)//Checking the rounding and number choice.
+let eightBall = '';
+switch (randomNumber) {
+  case 0:
+   eightBall = 'George you will die to Dio.';
+    break;
+  case 1: 
+   eightBall =  'Johnathan you will die to Dio.';
+    break;
+  case 2: 
+   eightBall =  'Joseph you will die to Dio; then come back.';
+    break;
+  case 3:
+   eightBall =  'Jotaro you will kill Dio.';
+    break;
+  case 4:
+   eightBall =  'Josuke you will not know Dio.';
+    break;
+  case 5:
+   eightBall =  'Giorno you are a descendant of Dio.';
+    break;
+  case 6:
+   eightBall =  'Lisa-Lisa you will lose your husband to an ally of Dio.';
+    break;
+  case 7:
+   eightBall =  'The JoJo family is cursed by Dio.';
+}//The different JoJos and chars and their fates are randomized to appear.
+
+console.log(`The eight ball answered ${eightBall}`);//The ball and it's answer is pulled.
